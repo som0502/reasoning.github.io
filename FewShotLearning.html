@@ -1,1 +1,20 @@
-
+<h1>Language Models are few shot learners</h1>
+<h2>Abstract</h2>
+ This article focusses on the GPT-3 model and it's few shot learning capabilities.
+<h2>Model</h2>
+<h3>GPT-1</h3>
+<h4>Pre-training</h4>
+<h5>Dataset</h5>
+<h5>Model Architecture</h5>
+12 layer decoder only transformer with masked self-attention 
+heads(768 dimensional states and 12 attention heads).The inner dimension 
+position-wise feedforward networks is 3072. An Adam optimizer is used with
+max learning rate of 2.5e-4. The learning rate was increased linearly from zero
+over the first 2000 updates and <a href="https://paperswithcode.com/method/cosine-annealing"> annealed to 0 using a cosine schedule.</a>
+<h5>Training Process</h5>
+<h4>Fine tuning</h4>
+<h5>Dataset</h5>
+<h5>Model Architecture</h5>
+<h5>Training Process</h5>
+<h2>Results</h2>
+<h2>Conclusion</h2>
